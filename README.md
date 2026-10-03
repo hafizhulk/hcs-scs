@@ -20,7 +20,7 @@ Fitur:
 
 ```
 .
-├── index.php              # Halaman utama (HTML + referensi aset)
+├── index.html              # Halaman utama (HTML + referensi aset)
 ├── css/style.css          # Gaya tampilan
 ├── js/                    # Logika aplikasi (dipisah per modul)
 │   ├── calculations.js    # Rumus inti HCS & SCS
@@ -41,7 +41,7 @@ Butuh PHP untuk menyajikan halaman:
 
 ```bash
 php -S localhost:8000
-# lalu buka http://localhost:8000/index.php
+# lalu buka http://localhost:8000/index.html
 ```
 
 Menjalankan uji logika (butuh Node.js):

@@ -173,7 +173,7 @@ function runTests(html, source){
 }
 if(typeof require==='function'&&typeof module!=='undefined'&&require.main===module){
   const fs=require('node:fs'),path=require('node:path');
-  const html=fs.readFileSync(path.join(__dirname,'..','index.php'),'utf8');
+  const html=fs.readFileSync(path.join(__dirname,'..','index.html'),'utf8');
   const result=runTests(html, loadSource(__dirname));
   console.log(JSON.stringify(result,null,2));if(result.failures.length)process.exitCode=1;
 }
