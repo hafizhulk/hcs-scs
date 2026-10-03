@@ -12,6 +12,10 @@ Fitur:
 - 📊 Grafik (Chart.js)
 - 🧩 Contoh kasus siap pakai
 
+## Live Demo
+
+🔗 **https://play.reloop.id/hcs-scs/**
+
 ## Struktur
 
 ```
